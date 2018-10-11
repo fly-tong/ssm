@@ -23,11 +23,4 @@ public class AccountController {
         return accountService.queryById(id);
     }
 
-    @RequestMapping("hello01")
-    public String hello01(){
-
-        return "hello";
-    }
-
-
 }
